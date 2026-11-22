@@ -5,7 +5,7 @@
 서버·유료 API 없이 전부 로컬(리눅스)에서 동작하고, 게임 데이터가 내 PC 밖으로 나가지 않습니다.
 
 > **(v0.2)** PGN → Stockfish 분석 → 핵심 장면 선별 → LLM 피드백(RAG) 까지 동작하는 코어입니다.
-> 향후 업데이트 계획은 [로드맵](#Loadmap)에 있습니다.
+> 향후 업데이트 계획은 [로드맵](#Roadmap)에 있습니다.
 
 ## How it works?
 
@@ -231,7 +231,7 @@ pytest
 
 엔진 분석 테스트는 Stockfish 대신 미리 정해둔 평가값을 쓰므로 Stockfish 없이도 실행됩니다.
 
-## Loadmap
+## Roadmap
 
 - [x] **v0.1** PGN → Stockfish → 핵심 장면 → 로컬 LLM 피드백 (CLI)
 - [x] **v0.2** RAG: 오프닝·전술 패턴·엔드게임 지식 문서 검색 반영
